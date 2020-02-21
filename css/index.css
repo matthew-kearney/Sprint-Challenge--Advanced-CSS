@@ -165,21 +165,25 @@ nav {
 }
 nav h1 {
   font-size: 3rem;
+  background-color: #f4f4f4;
 }
 nav .anchors {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 1%;
   letter-spacing: 4px;
   margin: auto;
+  background-color: #f4f4f4;
 }
 nav .home {
   padding-right: 5%;
 }
 nav img {
   width: 100%;
+  padding-left: 13%;
+  padding-right: 13%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -248,8 +252,7 @@ footer .footer {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    padding: 0;
-    margin: 0;
+    padding: 3%;
   }
 }
 .home .walk .walk-text {
@@ -292,6 +295,8 @@ footer .footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
+    display: flex;
+    justify-content: center;
     width: 100%;
   }
 }
